@@ -1,0 +1,7 @@
+arrayname.map((value,index)=>{
+return(
+    <div key={index}>
+        {value.title}
+    </div>
+)
+})
